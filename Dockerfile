@@ -1,5 +1,5 @@
 FROM openfalcon/makegcc-golang:1.10-alpine
-LABEL maintainer laiwei.ustc@gmail.com
+LABEL maintainer molander880911@gmail.com
 USER root
 
 ENV FALCON_DIR=/open-falcon PROJ_PATH=${GOPATH}/src/github.com/open-falcon/falcon-plus
